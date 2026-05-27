@@ -27,9 +27,9 @@ import org.apache.shiro.biz.authz.principal.ShiroPrincipalRepositoryImpl;
 import org.apache.shiro.spring.boot.kisso.token.KissoAccessToken;
 
 import com.baomidou.kisso.security.token.SSOToken;
-import com.github.hiwepy.jwt.JwtClaims;
-import com.github.hiwepy.jwt.JwtPayload.RolePair;
-import com.github.hiwepy.jwt.utils.StringUtils;
+import io.github.hiwepy.jwt.JwtClaims;
+import io.github.hiwepy.jwt.JwtPayload.RolePair;
+import io.github.hiwepy.jwt.utils.StringUtils;
 import com.google.common.collect.Sets;
 
 /**
