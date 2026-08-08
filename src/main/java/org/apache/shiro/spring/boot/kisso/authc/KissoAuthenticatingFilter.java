@@ -43,7 +43,7 @@ import com.baomidou.kisso.web.handler.SSOHandlerInterceptor;
 
 /**
  * Kisso 认证 (authentication)过滤器
- * @author ： <a href="https://github.com/hiwepy">hiwepy</a>
+ * @author [@Loong Wan](https://github.com/loong10k)
  */
 public class KissoAuthenticatingFilter extends AbstractTrustableAuthenticatingFilter {
 

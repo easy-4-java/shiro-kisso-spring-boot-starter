@@ -12,7 +12,7 @@ import org.apache.shiro.subject.PrincipalCollection;
 
 /**
  * Kisso Stateless AuthorizingRealm
- * @author <a href="https://github.com/hiwepy">hiwepy</a>
+ * @author [@Loong Wan](https://github.com/loong10k)
  */
 public class KissoStatelessAuthorizingRealm extends AbstractAuthorizingRealm {
 
