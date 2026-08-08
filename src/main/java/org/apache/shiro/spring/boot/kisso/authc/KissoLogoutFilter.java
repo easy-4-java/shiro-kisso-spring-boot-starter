@@ -17,8 +17,8 @@ package org.apache.shiro.spring.boot.kisso.authc;
 
 import java.util.Locale;
 
-import javax.servlet.ServletRequest;
-import javax.servlet.ServletResponse;
+import jakarta.servlet.ServletRequest;
+import jakarta.servlet.ServletResponse;
 
 import org.apache.shiro.biz.web.filter.authc.AbstractLogoutFilter;
 import org.apache.shiro.subject.Subject;
@@ -31,7 +31,7 @@ import com.baomidou.kisso.SSOHelper;
 
 /**
  * Kisso 注销过滤器：清除Shiro状态数据和自身缓存数据
- * @author 		： <a href="https://github.com/hiwepy">hiwepy</a>
+ * @author [@Loong Wan](https://github.com/loong10k)
  */
 public class KissoLogoutFilter extends AbstractLogoutFilter {
 
