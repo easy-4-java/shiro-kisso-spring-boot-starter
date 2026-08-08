@@ -13,16 +13,26 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package org.apache.shiro.spring.boot.kisso.token;
+package org.apache.shiro.spring.boot.kisso;
 
-import org.apache.shiro.biz.authc.token.DefaultAuthenticationToken;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+
+import static org.assertj.core.api.Assertions.assertThat;
 
 /**
- * KISSO Login Token
+ * Unit tests for {{ @link KissoStatelessPrincipal }}.
+ *
  * @author [@Loong Wan](https://github.com/loong10k)
+ * @since 1.0.0
  */
-@SuppressWarnings("serial")
-public class KissoLoginToken extends DefaultAuthenticationToken {
+@DisplayName("KissoStatelessPrincipal Tests")
+class KissoStatelessPrincipalTest {
 
-	
+    @Test
+    @DisplayName("Instance can be created via constructor")
+    void testInstantiation() {
+        KissoStatelessPrincipal instance = new KissoStatelessPrincipal(null);
+        assertThat(instance).isNotNull();
+    }
 }
