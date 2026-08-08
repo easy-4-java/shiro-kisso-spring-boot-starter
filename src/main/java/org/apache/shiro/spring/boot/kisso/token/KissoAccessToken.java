@@ -21,7 +21,7 @@ import com.baomidou.kisso.security.token.SSOToken;
 
 /**
  * KISSO Access Token
- * @author 		： <a href="https://github.com/hiwepy">hiwepy</a>
+ * @author [@Loong Wan](https://github.com/loong10k)
  */
 @SuppressWarnings("serial")
 public class KissoAccessToken implements HostAuthenticationToken {
